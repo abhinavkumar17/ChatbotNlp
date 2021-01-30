@@ -1,1 +1,1 @@
-worker: python ChatbotNlp.py
+web: python3 ChatbotNlp.py
