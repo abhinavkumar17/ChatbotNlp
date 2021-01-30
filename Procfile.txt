@@ -1,1 +1,1 @@
-web: gunicorn app:ChatbotNlp
+weworker: python ChatbotNlp.py
