@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+		{"tag": "pets",
+         "patterns": ["what is pets", "what is syncup pets", "what is syncup"],
+         "responses": ["Your pet is about to get an upgrade! SyncUP PETS™ is a T-Mobile network enabled tracker that attaches to a pet’s collar and that works with the SyncUP PETS app. Together they are designed to encourage pet owners to be their best and to improve the quality and length of life of their pets. The app tells you when your pet leaves a safe zone that you set up. The app helps you find a lost pet. It even tracks your pet’s activity throughout the day. The tracker works on a wide range of fun-loving and adventurous pets, including dogs, cats, horses and pigs. By knowing more, you’ll worry less and feel even more connected to your special friends. The tracker takes advantage of T-Mobile’s narrow band network and low power communication. It can switch to Wi-Fi when needed, and it provides location information with a combination of the T-Mobile LTE network and GPS. Built-in Wi-Fi and low-energy signal radios provide additional communication channels and low power location tracking. The tracker includes a multi-color LED and a user button"]
+        },
+		{"tag": "included",
+         "patterns": ["what is included", "what is in the box", "how many items"],
+         "responses": ["Tracker—Round, plastic device witha light on the front, button on theback, and a battery and radios inside.Collar mount—Holds the trackerand secures it in place on your pet’scollar.Bands—Flexible, rectangular bandsthat attach to tabs on the collarmount to hold the collar mount onthe collar.USB cable—Connects to thecharging dock or power adapter forbattery recharge.Charging dock—Holds the trackerin place for recharging by a USBcable.Wall charger—Plugs into a standardUS wall outlet; includes a USB Cport for connecting to tracker.Quick Start Guide—Helps you setup and start using the tracker."]
+        },
+		{"tag": "mobile app",
+         "patterns": ["what is mobile app", "how to download mobile app", "where is android and IOS app"],
+         "responses": ["The SyncUP PETS app is required for the complete experience, includingaccessing your pet’s location. The app is available for free. Search for SyncUP PETS in the Apple App Store, Google Play, or visit: www.t-mobile.com/syncuppets.Tip: Verify that your smartphone is up to date with the latest operating system andthat it meets the minimum technical requirements"]
+        },
+		,
+		{"tag": "create account",
+         "patterns": ["how to create account", "where is my account", "what is first step in mobile app"],
+         "responses": ["Open the SyncUP PETS app on your smartphone and tapSign Up on the homescreen. Follow the prompts to create your new account. During this process, you will be asked to verify your T-Mobile phone number via text messaging. This is your personal mobile phone number, not the number associated with your SyncUP PETS tracker"]
+        }
+     ]
+}
